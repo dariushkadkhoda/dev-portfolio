@@ -63,7 +63,7 @@ const Services = () => {
                 {/* title */}
                 <h2 className="text-[32px] font-bold leading-[1.5] text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
                 {/* description */}
-                <p className="text-white/60">{service.description}</p>
+                <p className="text-white/60 text-xl">{service.description}</p>
                 <div className="border-b border-white/20 w-full"></div>
               </div>
             );

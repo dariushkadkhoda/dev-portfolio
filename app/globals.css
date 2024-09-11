@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  font-size: 62.5%
+:root {
+  font-size: 62.5%;
 }
-@layer base{
-  body{
+@layer base {
+  body {
     @apply font-primary bg-primary text-white leading-loose;
   }
   /* .h1{
@@ -18,10 +18,10 @@
   .h3{
     @apply text-[20px] xl:text[24px] leading-[1.1] font-semibold;
   } */
-  .text-outline{
+  .text-outline {
     -webkit-text-stroke: 1px #ffffff;
   }
-  .text-outline:hover{
+  .text-otline:hover {
     -webkit-text-stroke: 1px #00ff99;
   }
 }
